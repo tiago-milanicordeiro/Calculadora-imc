@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>M.A.P.A</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1>Calculando o seu Índice de Massa Corporal</h1>
+    </div>
+    <fieldset>
+        <legend>Tabela de pesos</legend>
+        <ul>
+            <li>IMC / Condicão:</li>
+            <li> abaixo de 18,5 / Baixo peso</li>
+            <li> de 18,5 a 24,99 / Peso ideal</li>
+            <li> de 25 a 29,99 / Sobrepeso</li>
+            <li> de 30 a 34,99 / Obesidade grau 1</li>
+            <li> de 35 a 40 / Obesidade grau 2</li>
+            <li> acima de 40 / Obesidade grau 3</li>
+        </ul>
+    </fieldset>
+    <p>Digite seu peso: <input id="peso" type="text" placeholder="exemplo: 60,5" /></p>
+    <p>Digite sua altura: <input id="altura" type="text" placeholder="exemplo: 1,70" /></p>
+    <div>
+        <button onclick="calcular()">Clique para calcular!</button>
+    </div>
+    <p id="texto">Descubra qual é seu IMC!</p>
+    <footer>
+        <p class="val">
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="CSS válido!" />
+            </a>
+        </p>
+        <p class="val">
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="CSS válido!" />
+            </a>
+        </p>
+    </footer>
+</body>
+
+</html>
